@@ -1,7 +1,0 @@
-AuthUsereFile "C:/Apache2.4/htdocs/.htpassword"
-AuthName "log in"
-AuthType Basic
-
-<Limit GET POST>
-require valid-user
-</Limit>
