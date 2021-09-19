@@ -1,0 +1,6 @@
+AuthType basic
+AuthName "please log in"
+AuthUserFile "C:/Program Files/Apache Software Foundation/Apache2.4/htdocs/.htpasswd"
+<limit GET POST>
+require valid-user
+</limit>
